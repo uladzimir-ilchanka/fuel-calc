@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FuelCalculator</string>
+    <string name="fuel">Fuel used (liters):</string>
+    <string name="distance">Distance (kilometers):</string>
+    <string name="price_optional">Price for 1 liter:</string>
+    <string name="fuel_consumption_per_100">Consumption per 100 km:</string>
+    <string name="money_spent_total">Fuel cost (total):</string>
+    <string name="money_spent_per_100">Fuel cost (per 100 km):</string>
+    <string name="fuel_consumption">Average consumption</string>
+    <string name="average_fuel_consumption">Average consumption (liters):</string>
+    <string name="range_calculation">Common consumption</string>
+    <string name="total_fuel_used">Total fuel used:</string>
+    <string name="cost_of_the_trip">Cost of the trip:</string>
+    <string name="cost_for_100_km">Cost for 100 km:</string>
+</resources>

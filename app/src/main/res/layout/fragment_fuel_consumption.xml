@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/gasoline_icon_image_view"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/gasoline_icon_50_50"
+        app:layout_constraintBottom_toBottomOf="@id/fuelUsedEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/fuelUsedEditText" />
+
+    <TextView
+        android:id="@+id/fuelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/fuel"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/fuelUsedEditText"
+        app:layout_constraintStart_toEndOf="@id/gasoline_icon_image_view"
+        app:layout_constraintTop_toTopOf="@id/fuelUsedEditText" />
+
+    <EditText
+        android:id="@+id/fuelUsedEditText"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="24dp"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/road_icon_image_view"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/road_icon_50_50"
+        app:layout_constraintBottom_toBottomOf="@id/distanceTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/distanceTextView" />
+
+    <TextView
+        android:id="@+id/distanceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/distance"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/distanceEditText"
+        app:layout_constraintStart_toEndOf="@+id/road_icon_image_view"
+        app:layout_constraintTop_toTopOf="@id/distanceEditText" />
+
+    <EditText
+        android:id="@+id/distanceEditText"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="24dp"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fuelUsedEditText" />
+
+    <ImageView
+        android:id="@+id/dollar_icon_image_view"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/dollar_icon_50_50"
+        app:layout_constraintBottom_toBottomOf="@id/priceTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/priceTextView" />
+
+    <TextView
+        android:id="@+id/priceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/price_optional"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/priceEditText"
+        app:layout_constraintStart_toEndOf="@+id/dollar_icon_image_view"
+        app:layout_constraintTop_toTopOf="@id/priceEditText" />
+
+    <EditText
+        android:id="@+id/priceEditText"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="24dp"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/distanceEditText" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/priceEditText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Калькулятар паліва</string>
+    <string name="fuel">Выкарыстана паліва (літры):</string>
+    <string name="distance">Адлегласць (кіламетры):</string>
+    <string name="price_optional">Кошт 1 літра:</string>
+    <string name="fuel_consumption_per_100">Расход на 100 км:</string>
+    <string name="money_spent_total">Кошт паліва (агульна):</string>
+    <string name="money_spent_per_100">Кошт паліва (на 100 км):</string>
+    <string name="fuel_consumption">Сярэдні расход</string>
+    <string name="average_fuel_consumption">Сярэдні расход (літры):</string>
+    <string name="range_calculation">Агульны расход</string>
+    <string name="total_fuel_used">Патрэбна паліва:</string>
+    <string name="cost_of_the_trip">Кошт паездкі:</string>
+    <string name="cost_for_100_km">Кошт на 100 км:</string>
+</resources>

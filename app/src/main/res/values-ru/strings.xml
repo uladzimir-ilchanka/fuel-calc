@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Калькулятор топлива</string>
+    <string name="fuel">Потрачено топлива (литры):</string>
+    <string name="distance">Расстояние (километры):</string>
+    <string name="price_optional">Цена 1 литра:</string>
+    <string name="fuel_consumption_per_100">Расход на 100 км:</string>
+    <string name="money_spent_total">Цена топлива (всего):</string>
+    <string name="money_spent_per_100">Цена топлива (на 100 км):</string>
+    <string name="fuel_consumption">Средний расход</string>
+    <string name="average_fuel_consumption">Средний расход (литры):</string>
+    <string name="range_calculation">Общий расход</string>
+    <string name="total_fuel_used">Нужно топлива:</string>
+    <string name="cost_of_the_trip">Стоимость поездки:</string>
+    <string name="cost_for_100_km">Цена на 100 км:</string>
+</resources>
